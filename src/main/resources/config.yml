@@ -1,0 +1,65 @@
+stattrak:
+    creation-item-id: 399
+    creation-item-metadata: 0
+    creation-item-name: '&eStattrak Creator'
+    creation-item-nbt-identifier: 'stattrackCreator'
+    creation-item-lore:
+      - '&cStattrack Creator'
+      - '&bDrag ontop of an item to add "StatTrak" to it'
+    monster-kills-counted: true
+    player-kills-counted: true
+    inform-player-kill-increase: true
+    player-kill-increase-message: '&2Stattrak increased from %oldkills% to %newkills%'
+    error-attempted-non-whitelist-stattrak-message: '&cYou cannot apply StatTrak to this item'
+    error-already-stattrak-item-message: '&cThis item is already has StatTrak applied'
+    give-command-permission-node: 'arcadian.command.sgive'
+    completion-give-command-inventory-full-message: '&aYou have been given %amount% StatTrak applicators, but your inventory is full. They have been dropped at your feet'
+    completion-give-command-inventory-full-title: '&a+%amount% StatTrak applicators'
+    completion-give-command-inventory-full-subtitle: '&aPick them up'
+    completion-give-command-message: '&aYou have been given %amount% StatTrack applicators'
+    completion-give-command-title: '&a +%amount% StatTrack applicators'
+    completion-give-command-subtitle: '&aCongratulations'
+    completion-give-command-sender-success: '&a%player% has been given %amount% StatTrak applicators'
+    error-give-command-permission-fail: '&cYou do not have the ability to use this command'
+    success-applied-stattrak-message: '&bStatTrak applied'
+    applied-item-lore:
+      - '&bStatTrak Enabled'
+      - '&c%kills% kills'
+    item-whitelist:
+        - 267
+        - 268
+        - 272
+        - 276
+        - 283
+blocktrak:
+    creation-item-id: 402
+    creation-item-metadata: 0
+    creation-item-name: '&eBlocktrak Creator'
+    creation-item-nbt-identifier: 'blocktrakCreator'
+    creation-item-lore:
+      - '&cBlocktrak Creator'
+      - '&bDrag ontop of an item to add "BlockTrak" to it'
+    inform-player-stat-increase: false
+    creative-mode-counted: false
+    player-stat-increase-message: '&2BlockTrak increased from %oldblocks% to %newblocks%'
+    error-attempted-non-whitelist-blocktrak-message: '&cYou cannot apply BlockTrak to this item'
+    error-already-blocktrak-item-message: '&cThis item is already has BlockTrak applied'
+    give-command-permission-node: 'arcadian.command.bgive'
+    completion-give-command-inventory-full-message: '&aYou have been given %amount% BlockTrak applicators, but your inventory is full. They have been dropped at your feet'
+    completion-give-command-inventory-full-title: '&a+%amount% BlockTrak applicators'
+    completion-give-command-inventory-full-subtitle: '&aPick them up'
+    completion-give-command-message: '&aYou have been given %amount% BlockTrak applicators'
+    completion-give-command-title: '&a +%amount% BlockTrak applicators'
+    completion-give-command-subtitle: '&aCongratulations'
+    completion-give-command-sender-success: '&a%player% has been given %amount% BlockTrak applicators'
+    error-give-command-permission-fail: '&cYou do not have the ability to use this command'
+    success-applied-blocktrak-message: '&bBlockTrak applied'
+    applied-item-lore:
+      - '&bBlockTrak Enabled'
+      - '&c%blocks% Blocks broken'
+    item-whitelist:
+        - 257
+        - 270
+        - 274
+        - 278
+        - 285

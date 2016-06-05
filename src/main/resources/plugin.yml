@@ -1,0 +1,11 @@
+name: StatTrak
+version: 1.0
+main: uk.co.proxying.stattrak.StatTrak
+prefix: StatTrak
+authors: [Proxying]
+description: Adds ability to add "StatTrak" to items.
+commands:
+    sgive:
+      description: StatTrak give command.
+    bgive:
+      description: BlockTrak give command.
